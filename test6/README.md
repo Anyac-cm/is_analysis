@@ -1,4 +1,4 @@
-# # 基于GitHub的实验管理平台的分析与设计
+#  基于GitHub的实验管理平台的分析与设计
 ## 1. 概述
 - 基于GitHub的实验管理平台的作用是在线管理实验成绩的Web应用系统。学生和老师的实验内容均存放在GitHUB
 页面上。
@@ -12,7 +12,7 @@
 ## 2. 系统总体结构
 ![](zongtijiegou.png)
 
-界面设计参见：https://zwdbox.github.io/is_analysis/test6/ui/index.html
+界面设计参见：https://Anyac-cm.github.io/is_analysis/test6/界面/登录.html
     
 ## 3. 用例图设计 [源码](UML-631.puml)
 ![](UML-631.png)
