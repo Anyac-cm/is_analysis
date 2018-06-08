@@ -1,0 +1,482 @@
+﻿$axure.loadCurrentPage({
+  "url":"用户界面学生.html",
+  "generationDate":new Date(1528469265819.44),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"ab1bf7aed47240a0bf64df412de546ce",
+    "type":"Axure:Page",
+    "name":"用户界面学生",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"1ae58bc223814eb99fcc701fdc5e5252",
+          "label":"",
+          "type":"flowShape",
+          "styleType":"flowShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":280,
+              "y":90},
+            "size":{
+              "width":790,
+              "height":510}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"955da2a3f1fe4b458b5ad5379044469b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":280,
+                  "y":90},
+                "size":{
+                  "width":790,
+                  "height":510}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/修改密码/u0.png"}},
+{
+          "id":"33f3c4790c434f159b7a80b92b5d8bae",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'仿宋 Bold', '仿宋'",
+            "fontSize":"28px",
+            "fontWeight":"700",
+            "horizontalAlignment":"center",
+            "verticalAlignment":"middle",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF66CC33,
+              "opacity":1},
+            "location":{
+              "x":280,
+              "y":130},
+            "size":{
+              "width":210,
+              "height":70},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFCC6633}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"17eb60fa533044cabeb248d761aebaa0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'仿宋 Bold', '仿宋'",
+                "fontSize":"28px",
+                "fontWeight":"700",
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF66CC33,
+                  "opacity":1},
+                "location":{
+                  "x":280,
+                  "y":130},
+                "size":{
+                  "width":210,
+                  "height":70},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFCC6633}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"fcb22652ee084556be77b22253538964",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":950,
+              "y":140},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 登录",
+                      "target":{
+                        "targetType":"page",
+                        "url":"登录.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"26ddc942adb54bf0a8071583ca375e96",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":570,
+              "y":149},
+            "size":{
+              "width":120,
+              "height":31}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1a9af5c74f9d4dff8377d43294a1399c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":570,
+                  "y":149},
+                "size":{
+                  "width":120,
+                  "height":31}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a51f6c7cd5464b42b8581e327b9b59fb",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":360,
+              "y":210},
+            "size":{
+              "width":70,
+              "height":26}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6856fb07b21d4d3c91cd98bbc6c806f1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":360,
+                  "y":210},
+                "size":{
+                  "width":70,
+                  "height":26}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"5a84e81a85144ea79e307e2360d72043",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":570,
+              "y":240},
+            "size":{
+              "width":120,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"73f8a7905e3f489585423ca9885f96ec",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":570,
+                  "y":240},
+                "size":{
+                  "width":120,
+                  "height":50}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/评定成绩/u5.png"}},
+{
+          "id":"916291f896dc47d5b8717db16652b6e9",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":570,
+              "y":370},
+            "size":{
+              "width":120,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"82e30a9b22864a92a3ee718f3b0ce319",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":570,
+                  "y":370},
+                "size":{
+                  "width":120,
+                  "height":50}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/评定成绩/u5.png"}},
+{
+          "id":"528bb8793a904c0cadeddecfdf0528b4",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":830,
+              "y":140},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 用户信息学生",
+                      "target":{
+                        "targetType":"page",
+                        "url":"用户信息学生.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"4595ca59be9b420990c9a691c45de225",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":870,
+              "y":520},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 选课",
+                      "target":{
+                        "targetType":"page",
+                        "url":"选课.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"b79efbd3310a4367bbd50434cceb1a6b",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":540,
+              "y":520},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 查看成绩",
+                      "target":{
+                        "targetType":"page",
+                        "url":"查看成绩.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"caa945c9cc9a49ddbaaa6a8fa9a9ac2e",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":690,
+              "y":240},
+            "size":{
+              "width":140,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"40b34784c4b84b40a8b3c2c43f526e00",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":690,
+                  "y":240},
+                "size":{
+                  "width":140,
+                  "height":50}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/用户界面学生/u16.png"}},
+{
+          "id":"6314c37618b5486a9dbe408a16566de2",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":690,
+              "y":370},
+            "size":{
+              "width":140,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d534f6833e7f4b988beccb09c3c675e4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":690,
+                  "y":370},
+                "size":{
+                  "width":140,
+                  "height":50}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/用户界面学生/u16.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "1ae58bc223814eb99fcc701fdc5e5252":{
+      "scriptId":"u0"},
+    "955da2a3f1fe4b458b5ad5379044469b":{
+      "scriptId":"u1"},
+    "33f3c4790c434f159b7a80b92b5d8bae":{
+      "scriptId":"u2"},
+    "17eb60fa533044cabeb248d761aebaa0":{
+      "scriptId":"u3"},
+    "fcb22652ee084556be77b22253538964":{
+      "scriptId":"u4"},
+    "26ddc942adb54bf0a8071583ca375e96":{
+      "scriptId":"u5"},
+    "1a9af5c74f9d4dff8377d43294a1399c":{
+      "scriptId":"u6"},
+    "a51f6c7cd5464b42b8581e327b9b59fb":{
+      "scriptId":"u7"},
+    "6856fb07b21d4d3c91cd98bbc6c806f1":{
+      "scriptId":"u8"},
+    "5a84e81a85144ea79e307e2360d72043":{
+      "scriptId":"u9"},
+    "73f8a7905e3f489585423ca9885f96ec":{
+      "scriptId":"u10"},
+    "916291f896dc47d5b8717db16652b6e9":{
+      "scriptId":"u11"},
+    "82e30a9b22864a92a3ee718f3b0ce319":{
+      "scriptId":"u12"},
+    "528bb8793a904c0cadeddecfdf0528b4":{
+      "scriptId":"u13"},
+    "4595ca59be9b420990c9a691c45de225":{
+      "scriptId":"u14"},
+    "b79efbd3310a4367bbd50434cceb1a6b":{
+      "scriptId":"u15"},
+    "caa945c9cc9a49ddbaaa6a8fa9a9ac2e":{
+      "scriptId":"u16"},
+    "40b34784c4b84b40a8b3c2c43f526e00":{
+      "scriptId":"u17"},
+    "6314c37618b5486a9dbe408a16566de2":{
+      "scriptId":"u18"},
+    "d534f6833e7f4b988beccb09c3c675e4":{
+      "scriptId":"u19"}}});

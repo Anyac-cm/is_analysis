@@ -1,0 +1,13 @@
+@startuml
+title 基于GitHub的实验管理平台--课程列表用例的顺序图
+actor users
+users -> course: 查看所有课程列表
+alt 如果users登录
+	users -> course_te_stu:查看自己选择的课程信息
+	course_te_stu --> users:users自己选择的课程信息
+	course --> users:所有的课程信息
+else 如果users是students，或者未登录
+    course --> users:所有的课程信息
+end
+
+@enduml

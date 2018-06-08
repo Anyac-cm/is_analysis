@@ -1,0 +1,309 @@
+﻿$axure.loadCurrentPage({
+  "url":"登录.html",
+  "generationDate":new Date(1528469265558.58),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"899350aa6293465ea7813a54a100fbad",
+    "type":"Axure:Page",
+    "name":"登录",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"94e39a5de83242ff9189ced0ecd6f69d",
+          "label":"",
+          "type":"flowShape",
+          "styleType":"flowShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":265,
+              "y":97.5},
+            "size":{
+              "width":790,
+              "height":510}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"cd8c493e78a542a7a8f6f0bca513356f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":265,
+                  "y":97.5},
+                "size":{
+                  "width":790,
+                  "height":510}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/修改密码/u0.png"}},
+{
+          "id":"db1f5ff2813345f5b33e0c7bf690dfb9",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":595,
+              "y":485},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1<br> (If 选中状态值 s = 真)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetCheckState",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["e7bbf841dfdf481aabda2ea65d5a91ab"]}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":true}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 用户界面学生",
+                      "target":{
+                        "targetType":"page",
+                        "url":"用户界面学生.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"用例 2<br> (Else If 选中状态值 t = 真)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetCheckState",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["a215aa04331f45d7a18d27bf9fb0c7fe"]}]},
+                    "rightExpr":{
+                      "exprType":"booleanLiteral",
+                      "value":true}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 用户界面老师",
+                      "target":{
+                        "targetType":"page",
+                        "url":"用户界面老师.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"a215aa04331f45d7a18d27bf9fb0c7fe",
+          "label":"t",
+          "type":"radioButton",
+          "styleType":"radioButton",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":595,
+              "y":424},
+            "size":{
+              "width":100,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b87e1217d6b94f27a027371c973f26d1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":595,
+                  "y":424},
+                "size":{
+                  "width":100,
+                  "height":16}},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"e7bbf841dfdf481aabda2ea65d5a91ab",
+          "label":"s",
+          "type":"radioButton",
+          "styleType":"radioButton",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":660,
+              "y":424},
+            "size":{
+              "width":100,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3431fcf0aceb44d9a590a4355f35aedc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":660,
+                  "y":424},
+                "size":{
+                  "width":100,
+                  "height":16}},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"59511f2d18c84e28936af700603db34a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'仿宋 Bold', '仿宋'",
+            "fontSize":"28px",
+            "fontWeight":"700",
+            "horizontalAlignment":"center",
+            "verticalAlignment":"middle",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF66CC33,
+              "opacity":1},
+            "location":{
+              "x":280,
+              "y":130},
+            "size":{
+              "width":210,
+              "height":70},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFCC6633}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"805b9e1aa705438ab804fd3c0c943b83",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'仿宋 Bold', '仿宋'",
+                "fontSize":"28px",
+                "fontWeight":"700",
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF66CC33,
+                  "opacity":1},
+                "location":{
+                  "x":280,
+                  "y":130},
+                "size":{
+                  "width":210,
+                  "height":70},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFCC6633}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"648f041feb1244818f5a451bc96fc4aa",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":560,
+              "y":290},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"62c5e9104f8f453baca80bdf60ad932a",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":560,
+              "y":340},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "94e39a5de83242ff9189ced0ecd6f69d":{
+      "scriptId":"u0"},
+    "cd8c493e78a542a7a8f6f0bca513356f":{
+      "scriptId":"u1"},
+    "db1f5ff2813345f5b33e0c7bf690dfb9":{
+      "scriptId":"u2"},
+    "a215aa04331f45d7a18d27bf9fb0c7fe":{
+      "scriptId":"u3"},
+    "b87e1217d6b94f27a027371c973f26d1":{
+      "scriptId":"u4"},
+    "e7bbf841dfdf481aabda2ea65d5a91ab":{
+      "scriptId":"u5"},
+    "3431fcf0aceb44d9a590a4355f35aedc":{
+      "scriptId":"u6"},
+    "59511f2d18c84e28936af700603db34a":{
+      "scriptId":"u7"},
+    "805b9e1aa705438ab804fd3c0c943b83":{
+      "scriptId":"u8"},
+    "648f041feb1244818f5a451bc96fc4aa":{
+      "scriptId":"u9"},
+    "62c5e9104f8f453baca80bdf60ad932a":{
+      "scriptId":"u10"}}});
